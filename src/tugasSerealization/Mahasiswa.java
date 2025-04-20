@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package tugasSerealization;
 
 import java.io.Serializable;
@@ -17,7 +13,15 @@ public class Mahasiswa implements Serializable {
         this.kelas = kelas;
     }
 
-    public String getNim() { return nim; }
-    public String getNama() { return nama; }
-    public String getKelas() { return kelas; }
+    public String getNim() {
+        return nim;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public String getKelas() {
+        return kelas;
+    }
 }
